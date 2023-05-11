@@ -1,0 +1,1107 @@
+<html lang="vi"><head>
+<title>Cách tạo bảng (table) trong HTML</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="webcoban.vn">
+<meta name="description" content="Cách tạo bảng (table) trong HTML">
+<meta property="og:image" content="https://webcoban.vn/home/image/avatar.jpg">
+<meta property="og:title" content="Cách tạo bảng (table) trong HTML">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://webcoban.vn/html/cach-tao-bang-table-trong-html.html">
+<meta name="og:description" content="Cách tạo bảng (table) trong HTML">
+<meta property="og:site_name" content="webcoban.vn">
+<link rel="shortcut icon" href="https://webcoban.vn/home/image/favicon.png">
+<link rel="stylesheet" type="text/css" href="https://webcoban.vn/home/css/bootstrap.min.css?t=202">
+<link rel="stylesheet" type="text/css" href="https://webcoban.vn/home/font-awesome/font-awesome.css">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&amp;family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Paytone+One&amp;family=Roboto+Condensed:wght@700&amp;family=Roboto+Slab:wght@400;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//cse.google.com/adsense/search/async-ads.js"></script><script src="https://www.google.com/cse/static/element/c23214b953e32f29/cse_element__vi.js?usqp=CAI%3D" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/element/c23214b953e32f29/default+vi.css"><link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/style/look/v4/default.css"><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}.gsc-control-cse{border-color:#FFFFFF;background-color:#FFFFFF}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#D9D9D9}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#666666;background-color:#CECECE;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#0000CC}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#0000CC}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#0000CC}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#0000CC}.gsc-cursor-page{color:#0000CC}a.gsc-trailing-more-results:link{color:#0000CC}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#000000}.gs-webResult div.gs-visibleUrl{color:#008000}.gs-webResult div.gs-visibleUrl-short{color:#008000}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-webResult.gsc-result.gsc-promotion{border-color:#336699;background-color:#FFFFFF}.gsc-completion-title{color:#0000CC}.gsc-completion-snippet{color:#000000}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#0000CC}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#0000CC}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#000000}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#008000}.gcsc-find-more-on-google{color:#0000CC}.gcsc-find-more-on-google-magnifier{fill:#0000CC}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+<body class="thread">
+<header>
+<div class="container">
+<a href="https://webcoban.vn"><span>Web Cơ Bản</span></a>
+<span onclick="search()"><i class="fa fa-search"></i></span>
+<span onclick="category()" class="fa fa-bars fa-lg"></span>
+</div>
+</header>
+<nav id="navbar">
+<div class="container">
+<ul>
+<li><a href="https://webcoban.vn"><span class="fa fa-home fa-lg"></span></a></li>
+<li><a href="https://webcoban.vn/html/tai-lieu-hoc-html">HTML</a></li>
+<li><a href="https://webcoban.vn/css/tai-lieu-hoc-css">CSS</a></li>
+<li><a href="https://webcoban.vn/javascript/tai-lieu-hoc-javascript">JAVASCRIPT</a></li>
+<li><a href="https://webcoban.vn/jquery/tai-lieu-hoc-jquery">JQUERY</a></li>
+<li><a href="https://webcoban.vn/mysql/tai-lieu-hoc-mysql">MYSQL</a></li>
+<li><a href="https://webcoban.vn/php/tai-lieu-hoc-php">PHP</a></li>
+<li class="search"><span onclick="search()" class="fa fa-search"></span></li>
+</ul>
+</div>
+</nav>
+<nav id="breadcrumb">
+<div class="container">
+<div>
+<a href="https://webcoban.vn"><i class="fa fa-home fa-lg"></i></a>
+<a href="https://webcoban.vn/html/tai-lieu-hoc-html">HTML</a>
+<a href="https://webcoban.vn/html/cach-tao-bang-table-trong-html.html">Bài 23: Cách tạo bảng trong HTML</a>
+</div>
+</div>
+</nav>
+<div id="main">
+<div class="container">
+<div class="content">
+<div class="text">
+<h1>Cách tạo một cái bảng (table) trong HTML</h1>
+<div class="i-square ss-1">
+<table>
+<tbody><tr>
+<td style="width:1px">
+<table>
+<tbody><tr>
+<th>Họ tên</th>
+<th>Ngày sinh</th>
+<th>Giới tính</th>
+</tr>
+<tr>
+<td>Trần Anh Đức</td>
+<td>03/08/1993</td>
+<td>Nam</td>
+</tr>
+<tr>
+<td>Kiều Thị Thu Hằng</td>
+<td>04/09/1991</td>
+<td>Nữ</td>
+</tr>
+<tr>
+<td>Vương Thị Lê Na</td>
+<td>06/10/1991</td>
+<td>Nữ</td>
+</tr>
+<tr>
+<td>Dương Kim Thương</td>
+<td>16/11/1990</td>
+<td>Nam</td>
+</tr>
+<tr>
+<td>Mai Đức Hiếu</td>
+<td>18/06/1989</td>
+<td>Nam</td>
+</tr>
+</tbody></table>
+</td>
+<td>
+<p>- Tính đến thời điểm này thì chắc các bạn cũng đã quá quen thuộc với hình dạng của một cái bảng rồi, cho nên tôi không cần phải giải thích lại khái niệm <span>bảng là gì</span> nữa, mà chúng ta sẽ đi thẳng vào việc tìm hiểu cách tạo một cái bảng luôn.</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<h2>1) Các thẻ được sử dụng trong việc tạo bảng</h2>
+<p>- Thông thường, để tạo được một cái bảng thì chúng ta cần phải sử dụng bốn loại thẻ:</p>
+<div class="ss_2">
+<table>
+<tbody><tr>
+<td style="width:220px">
+<table>
+<tbody><tr><td>&lt;table&gt;</td></tr>
+<tr><td>&lt;tr&gt;</td></tr>
+<tr><td>&lt;th&gt;</td></tr>
+<tr><td>&lt;td&gt;</td></tr>
+</tbody></table>
+</td>
+<td>
+<p>- Trong đó:</p>
+<ul>
+<li>Thẻ &lt;table&gt; dùng để xác định một cái bảng.</li>
+<li>Thẻ &lt;tr&gt; dùng để xác định một hàng bên trong bảng.</li>
+<li>Thẻ &lt;th&gt; dùng để xác định một ô (tiêu đề) bên trong hàng.</li>
+<li>Thẻ &lt;td&gt; dùng để xác định một ô (bình thường) bên trong hàng.</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div>
+<table>
+<tbody><tr>
+<td style="width:365px">
+<table>
+<tbody><tr>
+<th>Họ tên</th>
+<th>Ngày sinh</th>
+<th>Giới tính</th>
+</tr>
+<tr>
+<td>Trần Anh Đức</td>
+<td>03/08/1993</td>
+<td>Nam</td>
+</tr>
+<tr>
+<td>Kiều Thị Thu Hằng</td>
+<td>04/09/1991</td>
+<td>Nữ</td>
+</tr>
+<tr>
+<td>Vương Thị Lê Na</td>
+<td>06/10/1991</td>
+<td>Nữ</td>
+</tr>
+<tr>
+<td>Dương Kim Thương</td>
+<td>16/11/1990</td>
+<td>Nam</td>
+</tr>
+<tr>
+<td>Mai Đức Hiếu</td>
+<td>18/06/1989</td>
+<td>Nam</td>
+</tr>
+</tbody></table>
+</td>
+<td>
+<p>- <u>Ví dụ</u>: Cái bảng bên trái có sáu hàng tương ứng với sáu phần tử &lt;tr&gt;, hàng đầu tiên có ba ô tiêu đề tương ứng với ba phần tử &lt;th&gt;, năm hàng còn lại gồm mười lăm ô bình thường tương ứng với mười lăm phần tử &lt;td&gt;</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p>- <u>Lưu ý</u>: <span class="i-mark-2">Ô tiêu đề</span> là loại ô mà văn bản nằm bên trong nó mặc định được tô đậm &amp; canh giữa.</p>
+<h2>2) Cách thức tạo một cái bảng</h2>
+<p>- Để tạo một cái bảng thì chúng ta nên thực hiện lần lượt các bước như sau:</p>
+<ul>
+<li><u>Bước 1</u>: Xác định một cái bảng.</li>
+<li><u>Bước 2</u>: Xác định số hàng nằm bên trong bảng.</li>
+<li><u>Bước 3</u>: Xác định số ô nằm bên trong mỗi hàng.</li>
+<li><u>Bước 4</u>: Xác định nội dung của từng ô.</li>
+<li><u>Bước 5</u>: Thiết lập thuộc tính border với giá trị 1 để tạo đường viền cho bảng và các ô.</li>
+</ul>
+<div class="i-square i-build ss_3">
+<div><u>Ví dụ</u>:</div>
+<table class="i-square"><tbody><tr><th>Họ tên</th><th>Ngày sinh</th><th>Giới tính</th></tr><tr><td>Trần Anh Đức</td><td>03/08/1993</td><td>Nam</td></tr><tr><td>Kiều Thị Thu Hằng</td><td>04/09/1991</td><td>Nữ</td></tr><tr><td>Vương Thị Lê Na</td><td>06/10/1991</td><td>Nữ</td></tr></tbody></table>
+<p>- Để tạo được một cái bảng giống phía trên thì chúng ta thực hiện lần lượt các bước sau:</p>
+<div>
+<div>Bước <span>1</span></div>
+<div>Bước <span>2</span></div>
+<div>Bước <span>3</span></div>
+<div>Bước <span>4</span></div>
+<div>Bước <span>5</span></div>
+</div>
+<div>
+<div>
+<p>- <u>Bước 1</u>: Xác định một cái bảng</p>
+<pre class="i-square i-code i-v3"><code>&lt;table&gt;&lt;/table&gt;</code></pre>
+</div>
+<div>
+<p>- <u>Bước 1</u>: Xác định một cái bảng</p>
+<p>- <u>Bước 2</u>: Xác định số hàng nằm bên trong bảng.</p>
+<p>(vì có tổng cộng bốn hàng nên tôi sử dụng bốn phần tử &lt;tr&gt;)</p>
+<pre class="i-square i-code i-v3"><code>&lt;table&gt;
+   &lt;tr&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+<div>
+<p>- <u>Bước 1</u>: Xác định một cái bảng</p>
+<p>- <u>Bước 2</u>: Xác định số hàng nằm bên trong bảng.</p>
+<p>- <u>Bước 3</u>: Xác định số ô nằm bên trong mỗi hàng.</p>
+<p>(hàng đầu tiên có ba ô tiêu đề, ba hàng còn lại thì mỗi hàng có ba ô bình thường)</p>
+<pre class="i-square i-code i-v3"><code>&lt;table&gt;
+   &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+<div>
+<p>- <u>Bước 1</u>: Xác định một cái bảng</p>
+<p>- <u>Bước 2</u>: Xác định số hàng nằm bên trong bảng.</p>
+<p>- <u>Bước 3</u>: Xác định số ô nằm bên trong mỗi hàng.</p>
+<p>- <u>Bước 4</u>: Xác định nội dung của từng ô.</p>
+<pre class="i-square i-code i-v3"><code>&lt;table&gt;
+   &lt;tr&gt;
+      &lt;th&gt;Họ tên&lt;/th&gt;
+      &lt;th&gt;Ngày sinh&lt;/th&gt;
+      &lt;th&gt;Giới tính&lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+      &lt;td&gt;03/08/1993&lt;/td&gt;
+      &lt;td&gt;Nam&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+      &lt;td&gt;04/09/1991&lt;/td&gt;
+      &lt;td&gt;Nữ&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+      &lt;td&gt;06/10/1991&lt;/td&gt;
+      &lt;td&gt;Nữ&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+<div>
+<p>- <u>Bước 1</u>: Xác định một cái bảng</p>
+<p>- <u>Bước 2</u>: Xác định số hàng nằm bên trong bảng.</p>
+<p>- <u>Bước 3</u>: Xác định số ô nằm bên trong mỗi hàng.</p>
+<p>- <u>Bước 4</u>: Xác định nội dung của từng ô.</p>
+<p>- <u>Bước 5</u>: Thiết lập thuộc tính border với giá trị 1 để tạo đường viền cho bảng và các ô.</p>
+<pre class="i-square i-code i-v3"><code>&lt;table border="1"&gt;
+   &lt;tr&gt;
+      &lt;th&gt;Họ tên&lt;/th&gt;
+      &lt;th&gt;Ngày sinh&lt;/th&gt;
+      &lt;th&gt;Giới tính&lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+      &lt;td&gt;03/08/1993&lt;/td&gt;
+      &lt;td&gt;Nam&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+      &lt;td&gt;04/09/1991&lt;/td&gt;
+      &lt;td&gt;Nữ&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+      &lt;td&gt;06/10/1991&lt;/td&gt;
+      &lt;td&gt;Nữ&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+</div>
+<div class="i-square"><a href="demo?file=3149" class="i-button-2">Xem ví dụ</a></div>
+</div>
+
+
+
+
+
+
+
+
+<h2>3) Các thuộc tính được dùng trong việc tạo bảng</h2>
+<p>- Dưới đây là danh sách một số thuộc tính thường được áp dụng trong việc tạo bảng.</p>
+<p>(các bạn vui lòng tấm vào hình <span class="fa fa-file-text-o fa-lg"></span> để tìm hiểu chi tiết chức năng và cách sử dụng của từng thuộc tính)</p>
+<table class="i-square i-full i-border i-property">
+<tbody><tr>
+<td>border</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-border"></span>
+<p>- Thiết lập độ dày của cái đường viền bao xung quanh bảng và các ô.</p>
+</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-cellspacing"></span>
+<p>- Thiết lập khoảng cách nằm giữa mỗi hai đường viền lân cận.</p>
+</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-cellpadding"></span>
+<p>- Thiết lập khoảng cách vùng đệm bên trong các ô.</p>
+</td>
+</tr>
+<tr>
+<td>bgcolor</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-bgcolor"></span>
+<p>- Thiết lập màu nền cho bảng hoặc các ô.</p>
+</td>
+</tr>
+<tr>
+<td>width</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-width"></span>
+<p>- Thiết lập chiều rộng cho bảng hoặc các ô.</p>
+</td>
+</tr>
+<tr>
+<td>height</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-height"></span>
+<p>- Thiết lập chiều cao cho bảng hoặc các ô.</p>
+</td>
+</tr>
+<tr>
+<td>align</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-align"></span>
+<p>- Canh lề cho nội dung bên trong ô (theo chiều ngang)</p>
+</td>
+</tr>
+<tr>
+<td>valign</td>
+<td>
+<span class="fa fa-file-text-o fa-lg ss-view-content"><input value=".ttt-valign"></span>
+<p>- Canh lề cho nội dung bên trong ô (theo chiều dọc)</p>
+</td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+<h2>4) Cách gộp các ô bên trong bảng lại với nhau</h2>
+<p>- Thông thường, khi tạo một cái bảng thì số ô trên mỗi hàng phải bằng nhau. Tuy nhiên, có một vài trường hợp đặc biệt, chúng ta cần phải tạo ra những cái bảng mà số ô trên mỗi hàng có sự hơn kém nhau.</p>
+<table class="i-square ss-2">
+<tbody><tr>
+<th rowspan="2">Họ tên</th>
+<th rowspan="2">Giới tính</th>
+<th colspan="3">Kết quả thi</th>
+</tr>
+<tr>
+<th>Toán</th>
+<th>Lý</th>
+<th>Hóa</th>
+</tr>
+<tr>
+<td>Trần Đức Anh</td>
+<td>Nam</td>
+<td>7.25</td>
+<td>8.0</td>
+<td>3.75</td>
+</tr>
+<tr>
+<td>Mai Đức Hiếu</td>
+<td>Nam</td>
+<td>7.0</td>
+<td>9.0</td>
+<td>4.75</td>
+</tr>
+</tbody></table>
+<p>- Để làm được điều đó thì chúng ta cần phải gộp các ô lại với nhau.</p>
+<h3>4.1) Gộp các ô theo chiều ngang</h3>
+<p>- Để gộp các ô theo chiều ngang thì chúng ta đặt thuộc tính colspan vào bên trong thẻ mở của cái ô mà ta muốn bắt đầu gộp nó với những ô nằm phía bên phải.</p>
+<p>- Cú pháp:</p>
+<pre class="i-square i-code i-v3 i-not-color"><code>colspan="số ô muốn gộp lại với nhau"</code></pre>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th colspan="3"&gt;THÔNG TIN SINH VIÊN&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3157" target="_blank">Xem ví dụ</a>
+</div>
+<h3>4.2) Gộp các ô theo chiều dọc</h3>
+<p>- Để gộp các ô theo chiều dọc thì chúng ta đặt thuộc tính rowspan vào bên trong thẻ mở của cái ô mà ta muốn bắt đầu gộp nó với những ô nằm phía dưới.</p>
+<p>- Cú pháp:</p>
+<pre class="i-square i-code i-v3 i-not-color"><code>rowspan="số ô muốn gộp lại với nhau"</code></pre>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th rowspan="3"&gt;LẬP TRÌNH WEB&lt;/th&gt;
+        &lt;td&gt;HTML&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;CSS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;JavaScript&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3158" target="_blank">Xem ví dụ</a>
+</div>
+<h3>4.3) Tổng hợp một số ví dụ khác để rút kinh nghiệm</h3>
+<div class="i-square i-build utoe4">
+<div><u>Ví dụ 1</u>:</div>
+<table>
+<tbody><tr>
+<th rowspan="2">Họ tên thí sinh</th>
+<th rowspan="2">Ngày sinh</th>
+<th rowspan="2">Giới tính</th>
+<th colspan="3">Kết quả thi</th>
+</tr>
+<tr>
+<th>Toán</th>
+<th>Lý</th>
+<th>Hóa</th>
+</tr>
+<tr>
+<td>Trần Đức Anh</td>
+<td>03/08/1993</td>
+<td>Nam</td>
+<td>7.25</td>
+<td>8.0</td>
+<td>3.75</td>
+</tr>
+<tr>
+<td>Kiều Thị Thu Hằng</td>
+<td>04/09/1991</td>
+<td>Nữ</td>
+<td>7.0</td>
+<td>9.0</td>
+<td>4.75</td>
+</tr>
+<tr>
+<td>Vương Thị Lê Na</td>
+<td>06/10/1991</td>
+<td>Nữ</td>
+<td>6.5</td>
+<td>9.75</td>
+<td>2.25</td>
+</tr>
+</tbody></table>
+<div class="i-square"><a href="demo?file=3159" class="i-button-2">Xem ví dụ</a></div>
+</div>
+<div class="i-square i-build utoe4">
+<div><u>Ví dụ 2</u>:</div>
+<table>
+<tbody><tr>
+<th rowspan="2">STT</th>
+<th rowspan="2">Họ tên</th>
+<th colspan="2">Giới tính</th>
+<th rowspan="2">Chức vụ</th>
+</tr>
+<tr>
+<th>Nam</th>
+<th>Nữ</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Trần Đức Anh</td>
+<td>X</td>
+<td></td>
+<td>Lớp Trưởng</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Kiều Thị Thu Hằng</td>
+<td></td>
+<td>X</td>
+<td>Lớp Phó</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Vương Thị Lê Na</td>
+<td></td>
+<td>X</td>
+<td>Tổ viên</td>
+</tr>
+</tbody></table>
+<div class="i-square"><a href="demo?file=3160" class="i-button-2">Xem ví dụ</a></div>
+</div>
+<div class="i-square i-build utoe4">
+<div><u>Ví dụ 3</u>:</div>
+<table>
+<tbody><tr>
+<th>STT</th>
+<th>Họ tên</th>
+<th>GVHD</th>
+<th>Lịch gặp GVHD</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Nguyễn Lê Thu Trang</td>
+<td rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+<td rowspan="3">08/03/2018</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Nguyễn Thị Diễm</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Phạm Thị Hồng Đào</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Nguyễn Thị Kim Sa</td>
+<td rowspan="3">Th.S Phạm Thị Huyền Quyên</td>
+<td rowspan="3">05/03/2018</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Lê Thị Trang</td>
+</tr>
+</tbody></table>
+<div class="i-square"><a href="demo?file=3161" class="i-button-2">Xem ví dụ</a></div>
+</div>
+<div class="i-square i-build utoe4">
+<div><u>Ví dụ</u>:</div>
+<table>
+<tbody><tr>
+<th colspan="2">Bảng điểm lớp 9B</th>
+<th rowspan="2">Toán</th>
+<th rowspan="2">Lý</th>
+<th rowspan="2">Hóa</th>
+</tr>
+<tr>
+<th>STT</th>
+<th>Họ tên</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Trần Đức Anh</td>
+<td>8.5</td>
+<td>3.0</td>
+<td>7.75</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Kiều Thị Thu Hằng</td>
+<td>10</td>
+<td>9.25</td>
+<td>5.75</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Vương Thị Lê Na</td>
+<td>2.25</td>
+<td>6.0</td>
+<td>7.75</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="4">Điểm trung bình cả lớp</td>
+</tr>
+</tbody></table>
+<div class="i-square"><a href="demo?file=3162" class="i-button-2">Xem ví dụ</a></div>
+</div>
+<h2>5) Tạo một cái tiêu đề cho bảng</h2>
+<p>- Để tạo một cái <u>tiêu đề</u> cho bảng thì chúng ta cần phải đặt thẻ &lt;caption&gt; nằm ở vị trí đầu tiên bên trong phần tử &lt;table&gt; với cú pháp như sau:</p>
+<pre class="i-square i-code i-v3 i-not-color"><code>&lt;caption align="value"&gt;tiêu đề của cái bảng&lt;/caption&gt;</code></pre>
+<p>- Trong đó, <u>value</u> có thể được xác định dựa theo một trong hai loại giá trị:</p>
+<table class="i-square i-full i-border">
+<tbody><tr>
+<td>top</td>
+<td><p>- Tiêu đề sẽ nằm phía trên cái bảng.</p></td>
+</tr>
+<tr>
+<td>bottom</td>
+<td><p>- Tiêu đề sẽ nằm phía dưới cái bảng.</p></td>
+</tr>
+</tbody></table>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1"&gt;
+    &lt;caption align="bottom"&gt;DANH SÁCH SINH VIÊN&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Họ tên&lt;/th&gt;
+        &lt;th&gt;Ngày sinh&lt;/th&gt;
+        &lt;th&gt;Giới tính&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3164" target="_blank">Xem ví dụ</a>
+</div>
+<p>- <u>Lưu ý</u>: Nếu chúng ta không thiết lập thuộc tính align cho thẻ &lt;caption&gt; thì tiêu đề của cái bảng sẽ mặc định nằm ở phía trên cái bảng.</p>
+<div class="i-big-form i-v1"></div>
+<div class="i-mini-form i-v1 ttt-border">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính border dùng để thiết lập <span class="i-mark-2">độ dày</span> của cái đường viền bao xung quanh bảng &amp; các ô.</p>
+<div>
+<table class="tyeiw">
+<tbody><tr>
+<td><div class="i-browser ddd_01"><div><span></span><span></span><span></span></div><div></div><div></div><div><div><i class="fa fa-arrow-left fa-lg"></i></div><div><span class="fa fa-lock fa-lg"></span><span></span><span class="fa fa-refresh fa-lg"></span><span></span></div><span class="fa fa-home fa-lg"></span><span></span><span class="fa fa-bars fa-lg"></span></div><div><iframe></iframe></div></div></td>
+<td>
+<pre class="i-square i-code i-v3 i-not-color"><code>&lt;table border="<i>1</i>"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<div><input type="range" min="0" max="20" value="1" style="width:100%"></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-cellspacing">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính cellspacing dùng để thiết lập khoảng cách nằm giữa mỗi hai đường viền lân cận.</p>
+<div>
+<table class="tyeiw">
+<tbody><tr>
+<td><div class="i-browser ddd_02"><div><span></span><span></span><span></span></div><div></div><div></div><div><div><i class="fa fa-arrow-left fa-lg"></i></div><div><span class="fa fa-lock fa-lg"></span><span></span><span class="fa fa-refresh fa-lg"></span><span></span></div><span class="fa fa-home fa-lg"></span><span></span><span class="fa fa-bars fa-lg"></span></div><div><iframe></iframe></div></div></td>
+<td>
+<pre class="i-square i-code i-v3 i-not-color"><code>&lt;table border="1" cellspacing="<i>2</i>"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<div><input type="range" min="0" max="20" value="2" style="width:100%"></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p>- <u>Lưu ý</u>: Nếu chúng ta không thiết lập thuộc tính cellspacing thì khoảng cách nằm giữa mỗi hai đường viền lân cận sẽ mặc định là 2 pixel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-cellpadding">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính cellpadding dùng để thiết lập khoảng cách vùng đệm bên trong các ô.</p>
+<div>
+<table class="tyeiw">
+<tbody><tr>
+<td><div class="i-browser ddd_03"><div><span></span><span></span><span></span></div><div></div><div></div><div><div><i class="fa fa-arrow-left fa-lg"></i></div><div><span class="fa fa-lock fa-lg"></span><span></span><span class="fa fa-refresh fa-lg"></span><span></span></div><span class="fa fa-home fa-lg"></span><span></span><span class="fa fa-bars fa-lg"></span></div><div><iframe></iframe></div></div></td>
+<td>
+<pre class="i-square i-code i-v3 i-not-color"><code>&lt;table border="1" cellpadding="<i>1</i>"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<div><input type="range" min="0" max="30" value="1" style="width:100%"></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p>- <u>Lưu ý</u>: Nếu chúng ta không thiết lập thuộc tính cellpadding thì khoảng cách vùng đệm bên trong các ô sẽ mặc định là 1 pixel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-bgcolor">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính bgcolor dùng để thiết lập <u>màu nền</u> cho bảng hoặc các ô bên trong bảng.</p>
+<table class="i-square i-note-v3">
+<tbody><tr>
+<td></td>
+<td>
+<p>- Nếu muốn thiết lập màu nền cho nguyên cái bảng thì ta đặt thuộc tính bgcolor nằm bên trong thẻ &lt;table&gt;</p>
+<p>- Nếu muốn thiết lập màu nền cho một hàng thì ta đặt thuộc tính bgcolor nằm bên trong thẻ &lt;tr&gt;</p>
+<p>- Nếu muốn thiết lập màu nền cho một ô thì ta đặt thuộc tính bgcolor nằm bên trong thẻ &lt;th&gt; hoặc &lt;td&gt;</p>
+</td>
+</tr>
+</tbody></table>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" bgcolor="yellow"&gt;
+    &lt;tr bgcolor="red"&gt;
+        &lt;th&gt;Họ tên&lt;/th&gt;
+        &lt;th&gt;Ngày sinh&lt;/th&gt;
+        &lt;th&gt;Giới tính&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="green"&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3152" target="_blank">Xem ví dụ</a>
+</div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-width">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính width dùng để thiết lập chiều rộng cho bảng hoặc các ô.</p>
+<table class="i-square i-note-v3">
+<tbody><tr>
+<td></td>
+<td>
+<p>- Nếu muốn thiết lập chiều rộng cho bảng thì ta đặt thuộc tính width nằm bên trong thẻ &lt;table&gt;</p>
+<p>- Nếu muốn thiết lập chiều rộng cho một ô thì ta đặt thuộc tính width nằm bên trong thẻ &lt;th&gt; hoặc &lt;td&gt;</p>
+</td>
+</tr>
+</tbody></table>
+<p>- <u>Lưu ý</u>: Khi chúng ta thiết lập chiều rộng cho một ô thì mặc định những ô nằm chung cột với ô đó sẽ có cùng một chiều rộng.</p>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" width="550"&gt;
+    &lt;tr width="50%"&gt;
+        &lt;th&gt;Họ tên&lt;/th&gt;
+        &lt;th&gt;Ngày sinh&lt;/th&gt;
+        &lt;th&gt;Giới tính&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3155" target="_blank">Xem ví dụ</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-height">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính height dùng để thiết lập chiều cao cho bảng hoặc các ô.</p>
+<table class="i-square i-note-v3">
+<tbody><tr>
+<td></td>
+<td>
+<p>- Nếu muốn thiết lập chiều cao cho bảng thì ta đặt thuộc tính height nằm bên trong thẻ &lt;table&gt;</p>
+<p>- Nếu muốn thiết lập chiều cao cho một ô thì ta đặt thuộc tính height nằm bên trong thẻ &lt;th&gt; hoặc &lt;td&gt;</p>
+</td>
+</tr>
+</tbody></table>
+<p>- <u>Lưu ý</u>: Khi chúng ta thiết lập chiều cao cho một ô thì mặc định những ô nằm chung hàng với ô đó sẽ có cùng một chiều cao.</p>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" height="400"&gt;
+    &lt;tr height="75%"&gt;
+        &lt;th&gt;Họ tên&lt;/th&gt;
+        &lt;th&gt;Ngày sinh&lt;/th&gt;
+        &lt;th&gt;Giới tính&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Trần Anh Đức&lt;/td&gt;
+        &lt;td&gt;03/08/1993&lt;/td&gt;
+        &lt;td&gt;Nam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Kiều Thị Thu Hằng&lt;/td&gt;
+        &lt;td&gt;04/09/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vương Thị Lê Na&lt;/td&gt;
+        &lt;td&gt;06/10/1991&lt;/td&gt;
+        &lt;td&gt;Nữ&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3156" target="_blank">Xem ví dụ</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-align">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính align dùng để canh lề cho nội dung bên trong ô (theo chiều ngang)</p>
+<p>- Thuộc tính align có thể nhận một trong bốn giá trị sau đây:</p>
+<table class="i-square i-full i-border">
+<tbody><tr>
+<td>left</td>
+<td><p>- Nội dung bên trong ô sẽ được canh trái.</p></td>
+</tr>
+<tr>
+<td>center</td>
+<td><p>- Nội dung bên trong ô sẽ được canh giữa.</p></td>
+</tr>
+<tr>
+<td>right</td>
+<td><p>- Nội dung bên trong ô sẽ được canh phải.</p></td>
+</tr>
+<tr>
+<td>justify</td>
+<td><p>- Nội dung bên trong ô sẽ được canh đều hai bên trái phải.</p></td>
+</tr>
+</tbody></table>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" width="1000"&gt;
+   &lt;tr&gt;
+      &lt;th width="25%"&gt;Cột 1&lt;/th&gt;
+      &lt;th width="25%"&gt;Cột 2&lt;/th&gt;
+      &lt;th width="25%"&gt;Cột 3&lt;/th&gt;
+      &lt;th width="25%"&gt;Cột 4&lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+      &lt;td align="left"&gt;X&lt;/td&gt;
+      &lt;td align="center"&gt;X&lt;/td&gt;
+      &lt;td align="right"&gt;X&lt;/td&gt;
+      &lt;td align="justify"&gt;X&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3153" target="_blank">Xem ví dụ</a>
+</div>
+<p>- <u>Lưu ý</u>: Nếu chúng ta đặt thuộc tính align bên trong thẻ &lt;tr&gt; thì tất cả những ô nằm ở hàng đó đều sẽ được canh lề.</p>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" width="500"&gt;
+   &lt;tr&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr align="center"&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3154" target="_blank">Xem ví dụ</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="i-mini-form i-v1 ttt-valign">
+    <div>
+    <span class="i-close"></span>
+        <div>
+            <div>
+                <div>
+<p>- Thuộc tính valign dùng để canh lề cho nội dung bên trong ô (theo chiều dọc)</p>
+<p>- Thuộc tính valign có thể nhận một trong ba giá trị sau đây:</p>
+<table class="i-square i-full i-border">
+<tbody><tr>
+<td>top</td>
+<td><p>- Nội dung bên trong ô sẽ được canh nằm ở trên.</p></td>
+</tr>
+<tr>
+<td>middle (mặc định)</td>
+<td><p>- Nội dung bên trong ô sẽ được canh nằm ở giữa.</p></td>
+</tr>
+<tr>
+<td>bottom</td>
+<td><p>- Nội dung bên trong ô sẽ được canh nằm ở dưới.</p></td>
+</tr>
+</tbody></table>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" height="400"&gt;
+   &lt;tr&gt;
+      &lt;td valign="top"&gt;X&lt;/td&gt;
+      &lt;td valign="middle"&gt;X&lt;/td&gt;
+      &lt;td valign="bottom"&gt;X&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3163" target="_blank">Xem ví dụ</a>
+</div>
+<p>- <u>Lưu ý</u>: Nếu chúng ta đặt thuộc tính valign bên trong thẻ &lt;tr&gt; thì tất cả những ô nằm ở hàng đó đều sẽ được canh lề.</p>
+<div class="i-square i-form i-v1">
+<div><u>Ví dụ</u>:</div>
+<hr>
+<pre><code>&lt;table border="1" height="400"&gt;
+   &lt;tr valign="top"&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+   &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+<a href="demo?file=3165" target="_blank">Xem ví dụ</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<nav class="menu">
+<div></div>
+<span></span>
+<a href="default.html">Một số kiến thức cơ bản về HTML</a>
+<a href="cach-tao-va-chay-thuc-thi-mot-tap-tin-html.html">Cách tạo và chạy một tập tin HTML</a>
+<a href="cau-truc-co-ban-cua-mot-tap-tin-html.html">Cấu trúc cơ bản của một tập tin HTML</a>
+<a href="doan-van-ban-trong-html.html">Đoạn văn bản (Paragraph)</a>
+<a href="the-tieu-de-heading-trong-html.html">Thẻ đề mục (Heading)</a>
+<a href="cac-the-dinh-dang-van-ban-trong-html.html">Các thẻ định dạng văn bản</a>
+<a href="phan-tu-html-html-element-la-gi.html">Tìm hiểu khái niệm phần tử (Element)</a>
+<a href="cach-ghi-chu-thich-trong-html.html">Cách viết chú thích</a>
+<a href="cach-tao-mot-cai-lien-ket-link-trong-html.html">Liên kết (Link)</a>
+<a href="cach-tao-lien-ket-den-mot-vi-tri-ben-trong-trang-web.html">Cách liên kết đến một vị trí bên trong trang web</a>
+<a href="khai-niem-thuoc-tinh-cua-phan-tu-html.html">Tìm hiểu khái niệm thuộc tính (Attribute)</a>
+<a href="thuoc-tinh-style-trong-html.html">Cách sử dụng thuộc tính Style</a>
+<a href="thuoc-tinh-id-va-thuoc-tinh-class-trong-html.html">Thuộc tính ID &amp; Class trong HTML</a>
+<a href="phan-tu-khoi-va-phan-tu-noi-tuyen-trong-html.html">Phần tử khối, phần tử nội tuyến</a>
+<a href="cach-su-dung-the-div-trong-html.html">Cách sử dụng thẻ &lt;div&gt; và &lt;span&gt; trong HTML</a>
+<a href="cach-chen-hinh-anh-vao-trang-web-html.html">Chèn hình ảnh (Image) vào trang web</a>
+<a href="cach-tao-mot-cai-ban-do-hinh-anh-image-map-trong-html.html">Bản đồ ảnh (Image Map)</a>
+<a href="cach-chen-mot-doan-phim-video-vao-trang-web.html">Chèn <u>Video</u> vào trang web</a>
+<a href="cach-chen-mot-doan-audio-bai-hat-ban-nhac-am-thanh-vao-trang-web.html">Chèn <u>Audio</u> vào trang web</a>
+<a href="cach-chen-iframe-khung-trang-web-vao-trang-web.html">Chèn <u>Iframe</u> vào trang web</a>
+<a href="cach-chen-mot-doan-video-tren-youtube-vao-trang-web.html">Nhúng video trên Youtube vào trang web</a>
+<a href="cach-tao-danh-sach-list-trong-html.html">Danh sách (List)</a>
+<a href="cach-tao-bang-table-trong-html.html" class="active">Bảng (Table)</a>
+<a href="cach-chen-plug-in-vao-trang-web-html.html">Cách nhúng ứng dụng bên ngoài (Plugin) vào trang web</a>
+<a href="cac-ky-tu-thuc-the-trong-html.html">Các ký tự thực thể (Entities) trong HTML</a>
+<span></span>
+<a href="danh-sach-tat-ca-cac-the-tag-trong-html.html">Danh sách các thẻ trong HTML (sắp xếp theo bảng chữ cái)</a>
+<a href="danh-sach-tat-ca-cac-the-co-ban-trong-html.html">Danh sách các thẻ trong HTML (sắp xếp theo thể loại)</a>
+<a href="ma-ngon-ngu-language-code-trong-html.html">Danh sách mã ngôn ngữ (Language Code) trong HTML</a>
+</nav>
+</div>
+<div class="side">
+<div class="top">
+<a href="https://www.youtube.com/watch?v=l6UTmkWb9e8" target="_blank" rel="nofollow" class="series"></a>
+</div>
+<div class="bottom" style="position: static; margin-top: 0px;">
+<span class="like">
+<a href="https://www.facebook.com/305673666495263" target="_blank" rel="nofollow"><span class="fa fa-facebook fa-lg"></span></a>
+<a href="https://www.youtube.com/channel/UCDGVJ64_Uaqlqh2tA2JR-Gw" target="_blank" rel="nofollow"><span class="fa fa-youtube-play fa-lg"></span></a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div>TRANG CHIA SẺ TÀI LIỆU HỌC LẬP TRÌNH TRỰC TUYẾN MIỄN PHÍ</div>
+<div><span>:</span><span></span></div>
+<div>Chúng tôi chuyên cung cấp các bài viết thuộc lĩnh vực lập trình web, tài liệu hướng dẫn học HTML, CSS, Javascript, jQuery, MySQL, PHP.</div>
+<div>
+<div>©2016 Bản quyền thuộc về <u>webcoban.vn</u></div>
+<div>
+<a href="https://www.dmca.com/Protection/Status.aspx?ID=a9ed0b5b-9ca8-4296-9ea8-7a325ebb0c78&amp;refurl=https://webcoban.vn/html/cach-tao-bang-table-trong-html.html" title="DMCA.com Protection Status" class="dmca-badge fa fa-rss fa-lg" target="_blank"><img src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-06.png?ID=a9ed0b5b-9ca8-4296-9ea8-7a325ebb0c78" alt="DMCA.com Protection Status"></a>
+<script type="text/javascript" async="" src="https://cse.google.com/cse.js?cx=009719991472361915522:mv0hqzomq50"></script><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+<i class="fa fa-twitter fa-lg"></i>
+<a href="https://www.youtube.com/channel/UCDGVJ64_Uaqlqh2tA2JR-Gw" target="_blank" rel="nofollow"><i class="fa fa-youtube fa-lg"></i></a>
+<i class="fa fa-google-plus fa-lg"></i>
+<a href="https://www.facebook.com/305673666495263" target="_blank" rel="nofollow"><i class="fa fa-facebook fa-lg"></i></a>
+<i class="fa fa-bullseye fa-lg"></i>
+</div>
+</div>
+</div>
+</footer>
+<div id="background"></div>
+<div id="search">
+<div class="container">
+<span><i onclick="search()"></i></span>
+<script>(function() {var cx = '009719991472361915522:mv0hqzomq50';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})();</script>
+<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-vi"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="tìm kiếm" aria-label="tìm kiếm" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/vi/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Xóa nội dung trong hộp tìm kiếm" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>tìm kiếm</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="xóa các kết quả">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Tìm kiếm tùy chỉnh</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-refinementsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sắp xếp theo:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>
+</div>
+</div>
+<span id="button" onclick="menu()"><i></i></span>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-140815313-1"></script>
+<script src="https://webcoban.vn/home/js/jquery-1.12.0.min.js?t=202"></script>
+
+<table cellspacing="0" cellpadding="0" role="presentation" class="gstl_50 gssb_c" style="width: 859px; display: none; top: -138px; position: absolute; left: 35px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>5
